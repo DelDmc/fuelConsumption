@@ -1,12 +1,3 @@
-function CLEANCalculateFuelAndCost(distance, fuelConsumption, fuelPrice) {
-    let fuelAmount = Math.abs(distance * fuelConsumption / 100);
-    let fuelCost = Math.abs(fuelAmount * fuelPrice);
-    return {
-        fuelAmount: fuelAmount.toFixed(2),
-        fuelCost: fuelCost.toFixed(2)
-    }
-}
-
 function resultFunc() {
     const resultSection = document.getElementById('result-section');
     const wrongInput = document.getElementById('wrong-input-section');
@@ -20,7 +11,7 @@ function resultFunc() {
         const fuelConsumption = parseFloat(fuelConsumptionInput.value);
         const fuelPrice = parseFloat(fuelPriceInput.value);
     
-        let result = CLEANCalculateFuelAndCost(distance, fuelConsumption, fuelPrice);
+        let result = CalculateFuelAndCost(distance, fuelConsumption, fuelPrice);
     
         document.getElementById('fuel-amount').textContent = result.fuelAmount + ' liters';
         document.getElementById('fuel-cost').textContent = result.fuelCost + '  EUR';
