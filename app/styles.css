@@ -1,9 +1,7 @@
-/* Set a light gray background color */
 body {
     background-color: #f1f1f1;
     }
-    /* Set a background image that covers the entire screen */
-    /* Replace "path/to/image.jpg" with the path to your image file */
+
     body {
     background-image: url("images/background.jpg");
     background-size: cover;
@@ -26,7 +24,6 @@ form {
     text-align: center; /* Center align the form */
     background-color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
-    /* opacity: 100;  */
   }
   
   label {
