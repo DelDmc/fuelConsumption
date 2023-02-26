@@ -30,4 +30,4 @@ console.log(trip);
 ```
 
 ## Link to paste function to your project
-(https://deldmc.github.io/fuelConsumption/app/fuelConsCostScript/consumptionCostCalculation.js)
+[https://deldmc.github.io/fuelConsumption/app/fuelConsCostScript/consumptionCostCalculation.js](https://deldmc.github.io/fuelConsumption/app/fuelConsCostScript/consumptionCostCalculation.js)
