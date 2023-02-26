@@ -17,4 +17,4 @@ The Fuel Cost Calculator is perfect for anyone planning a road trip, whether it'
 Ready to plan your next road trip? 
 Give the Fuel Cost Calculator a try today and start budgeting your travel expenses with confidence!
 
-                 [TRY it NOW](https://deldmc.github.io/fuelConsumption/app/)
+[TRY it NOW](https://deldmc.github.io/fuelConsumption/app/)
