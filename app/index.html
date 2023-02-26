@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+    </style>
+</head>
+<body>
+    <form id="distance-fuel-form">
+        <label for="distance">Distance between cities (km):</label>
+        <input type="number" id="distance" name="distance" required><br><br>
+      
+        <label for="consumption">Fuel consumption (l/100km):</label>
+        <input type="number" id="consumption" name="consumption" required><br><br>
+      
+        <label for="price">Average fuel price (EUR):</label>
+        <input type="number" id="fuel-price" name="price" required><br><br>
+      
+        <button id="calculate-button" 
+                type="button" 
+                onclick="resultFunc()">Submit</button><br><br>
+
+        <div id="result-section" class="hidden-content">
+            <table>
+                <tr>
+                    <td >Total fuel consumption:</td>
+                    <td id="fuel-amount" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>Total cost of fuel:</td>
+                    <td id="fuel-cost" style="font-weight: bold;"></td>
+                </tr>
+            </table>
+            <!-- <p>Amount of fuel needed: <span id="fuel-amount"></span></p>
+            <p>Total cost of fuel: <span id="fuel-cost"></span></p> -->
+        </div>
+        <div id="wrong-input-section" class="hidden-content">
+            <p>Oups... Seems like incorrect input :(</p>
+        </div>
+        <script src="main.js"></script>  
+    </form>
+
+</body>
+</html>

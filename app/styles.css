@@ -1,0 +1,69 @@
+/* Set a light gray background color */
+body {
+    background-color: #f1f1f1;
+    }
+    /* Set a background image that covers the entire screen */
+    /* Replace "path/to/image.jpg" with the path to your image file */
+    body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+
+form {
+    width: 50%;
+    /* margin: 0 auto; */
+    position: absolute; /* set the position to absolute */
+    top: 50%; /* set the top position to 50% of the page height */
+    left: 50%; /* set the left position to 50% of the page width */
+    transform: translate(-50%, -50%); /* center the form */
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Center align the form */
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    /* opacity: 100;  */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .hidden-content {
+    background-color: #fffefe44;
+    border-radius: 5px;
+    display: none;
+  }
