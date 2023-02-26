@@ -4,9 +4,10 @@ The Fuel Cost Calculator is an online tool that allows you to calculate the cost
 ## How to Use
 To use the Fuel Cost Calculator, simply follow these steps:
 
-Enter the distance you plan to travel in kilometers.
-Enter your vehicle's fuel consumption in liters per 100 kilometers.
-Enter the cost of fuel per liter.
+1. Enter the distance you plan to travel in kilometers.
+2. Enter your vehicle's fuel consumption in liters per 100 kilometers.
+3. Enter the cost of fuel per liter.
+
 The calculator will then display the estimated cost of fuel for your trip and the number of liters required based on the inputs you provided.
 
 ## Why Use It
