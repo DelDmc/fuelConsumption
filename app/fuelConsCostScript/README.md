@@ -28,3 +28,6 @@ const trip = CalculateFuelAndCost(250, 8, 1.3);
 console.log(trip);
 // Output: { fuelAmount: '20.00', fuelCost: '26.00' }
 ```
+
+## Link to paste function to your project
+(https://deldmc.github.io/fuelConsumption/app/fuelConsCostScript/consumptionCostCalculation.js)
