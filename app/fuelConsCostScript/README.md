@@ -1,5 +1,5 @@
-# Function: CalculateFuelAndCost
-calculateFuelAndCost is a function that takes object with three properties :distance, fuelConsumption, and fuelPrice. It calculates the amount of fuel needed and the total cost of the fuel based on the distance traveled, fuel consumption per 100 km, and fuel price.
+# Function: calculateFuelAndCost
+**calculateFuelAndCost** is a function that takes object with three properties :distance, fuelConsumption, and fuelPrice. It calculates the amount of fuel needed and the total cost of the fuel based on the distance traveled, fuel consumption per 100 km, and fuel price.
 
 ## Parameters
 Object {
