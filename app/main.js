@@ -11,7 +11,7 @@ function resultFunc() {
         const fuelConsumption = parseFloat(fuelConsumptionInput.value);
         const fuelPrice = parseFloat(fuelPriceInput.value);
     
-        let result = CalculateFuelAndCost(distance, fuelConsumption, fuelPrice);
+        let result = calculateFuelAndCost({distance, fuelConsumption, fuelPrice});
     
         document.getElementById('fuel-amount').textContent = result.fuelAmount + ' liters';
         document.getElementById('fuel-cost').textContent = result.fuelCost + '  EUR';
